@@ -1,0 +1,49 @@
+$black:#000;
+ $white:#FFF;
+ $cinza:#333;
+ $cinzao:#444;
+ $verde:#51baba;
+ $rosa:#ff6f6f;
+ $azul:#6280c6;
+ $laranja:#ff9f4f;
+ $amarelo:#ffcf6f;
+
+body {
+    background: $cinza;
+    > #container {
+        text-align: left;
+    }
+}
+
+header {
+    h1 {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+}
+#wrapper {
+    margin-top: 60px;
+}
+.bg0 {
+    background: #aaa;
+}
+.bg1 {
+    background: $rosa;
+}
+.bg2 {
+    background: $azul;
+}
+.bg3 {
+    background: $verde;
+}
+.bg4 {
+    background: #ffcc00;
+}
+
+/* HACKATHON */
+.colhead {
+    display: block;
+    background: $white;
+    padding:5px;
+    margin-bottom: 10px;
+}
